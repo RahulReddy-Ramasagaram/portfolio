@@ -1,0 +1,456 @@
+.left-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color:  #333333   ;
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic-img {
+    height: 160px;
+    width: 160px;
+}
+
+.nav-links ul {
+    font-family: monospace;
+    font-size: 1.8rem;
+    padding: 0px;
+    text-align: center;
+}
+
+.nav-links li, .nav-links li a {
+    color: #f0f0f0;
+    list-style: none;
+    text-transform: uppercase;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-links li:hover,
+.nav-links li a:hover {
+    color: #ff6600; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.right-content {
+    left: 22%;
+    position: absolute;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+body {
+    padding-left: 17%;
+
+}
+
+.main-section {
+    height: 100vh;
+    padding: 4px;
+}
+
+
+.profile-name {
+    font-family: monospace;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #ff6600;
+}
+
+.profile-summary {
+    font-family: monospace;
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 50px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.personal-details {
+    font-family: monospace;
+    color: #666666  ;
+    font-size: 1.8rem;
+}
+
+
+.phone {
+    color: #666666
+}
+
+.social-icons {
+    display: flex;
+    justify-content: left; /* Align icons horizontally */
+}
+
+.social-icon {
+    margin: 0 20px; /* Add margin around each icon */
+    font-size: 50px; /* Adjust icon size */
+    color: #333333; /* Set default icon color */
+    transition: color 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+.social-icon:hover {
+    color: #0669d3; /* Change color on hover */
+}
+
+.summary-bold-heading {
+    font-family: monospace;
+    margin-top: 50px;
+    font-size: 30px;
+    color: black  ;
+
+}
+
+.summary-details {
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 2.5rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+  .summary-details > div {
+    margin-bottom: 20px;
+  }
+
+
+  .education-bold-heading {
+    font-family: monospace;
+    margin-top: 150px;
+    font-size: 30px;
+    color: black  ;
+    margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+.education-item {
+    margin-top: 60px;
+}
+
+.education-heading {
+    display: flex;
+    justify-content: space-between; /* Align items vertically */
+}
+
+.education-title {
+    font-family: monospace;
+    color: #ff6600;
+    font-size: 2rem;
+}
+
+.education-date {
+    font-family: monospace;
+    color: #666666;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+
+.education-title,
+.education-date {
+    display: inline-block; /* Display elements inline-block */
+    margin-right: 10px; /* Add margin between elements */
+}
+
+.education-subheading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.education-background {
+    flex: 1;
+    font-family: monospace;
+    color: #666666;
+    font-size: 1.2rem;
+}
+
+.education-location {
+    font-family: monospace;
+    color: #ff6600;
+    font-size: 1.2rem;
+}
+
+.education-score {
+    font-family: monospace;
+    color: black;
+    font-size: 1.2rem;
+}
+  
+  /* Style for experience heading */
+  .experience-bold-heading {
+    font-family: monospace;
+    font-size: 30px;
+    color: black  ;
+    margin-bottom: 40px; /* Adjust margin as needed */
+  }
+
+.experience-heading {
+    display: flex;
+    justify-content: space-between; /* Align items vertically */
+}
+
+.experience-title,
+.experience-date {
+    display: inline-block; /* Display elements inline-block */
+    margin-right: 10px; /* Add margin between elements */
+}
+
+  
+  /* Style for experience title */
+  .experience-title {
+    font-family: monospace;
+    color: #ff6600;
+    font-size: 2rem;
+  }
+  
+  /* Style for experience date */
+  .experience-date {
+    font-family: monospace;
+    color: #666666;
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+  
+  /* Style for experience subheading */
+  .experience-subheading {
+    font-family: monospace;
+    color: black;
+    font-size: 1.6rem;
+  }
+  
+  /* Style for experience details */
+  .experience-details {
+    margin-top: 10px;
+  }
+  
+  /* Style for experience details list */
+  .experience-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Style for experience details list items */
+  .experience-details li {
+    margin-bottom: 10px; /* Adjust margin between list items */
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+  
+  /* Optional: Style for experience details list item bullet point */
+  .experience-details li::before {
+    content: "\2022"; /* Unicode character for bullet point */
+    color: #ff6600; /* Adjust bullet point color as needed */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+
+
+   /* Style for projects heading */
+.projects-bold-heading {
+    font-family: monospace;
+    margin-top: 100px;
+    font-size: 30px;
+    color: black  ;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style for projects items */
+  .projects-item {
+    margin-bottom: 30px; /* Adjust margin between project items */
+  }
+  
+  .projects-heading {
+    display: flex;
+    justify-content: space-between; /* Align items vertically */
+}
+
+.projects-title,
+.projects-date {
+    display: inline-block; /* Display elements inline-block */
+    margin-right: 10px; /* Add margin between elements */
+}
+
+
+  /* Style for projects title */
+  .projects-title {
+    font-family: monospace;
+    color: #ff6600;
+    font-size: 2rem;
+  }
+  
+  /* Style for projects date */
+  .projects-date {
+    font-family: monospace;
+    color: #666666;
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+
+  
+.projects-subheading {
+    display: flex;
+    justify-content: space-between; /* Align items vertically */
+}
+
+.projects-company,
+.projects-location {
+    display: inline-block; /* Display elements inline-block */
+    margin-right: 10px; /* Add margin between elements */
+}
+
+  
+  /* Style for projects company */
+  .projects-company {
+    font-family: monospace;
+    color: #666666;
+    font-size: 1.2rem;
+  }
+  
+  /* Style for projects location */
+  .projects-location {
+    font-family: monospace;
+    color: #ff6600;
+    font-size: 1.2rem;
+  }
+  
+  /* Style for projects details */
+  .projects-details {
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Style for projects details list */
+  .projects-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Style for projects details list items */
+  .projects-details li {
+    margin-bottom: 10px; /* Adjust margin between list items */
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+  
+  /* Optional: Style for projects details list item bullet point */
+  .projects-details li::before {
+    content: "\2022"; /* Unicode character for bullet point */
+    color: #007bff; /* Adjust bullet point color as needed */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+
+/* Style for skills heading */
+    .skills-bold-heading {
+        font-family: monospace;
+        margin-top: 200px;
+        font-size: 30px;
+        color: black  ;
+      }
+      
+      /* Style for skill items */
+      .skill-item {
+        margin-bottom: 10px; /* Adjust margin between skill items */
+      }
+
+      .skill-subheading,
+        .skill-list {
+    display: inline; /* or use display: inline; */
+    }
+      
+      /* Style for skill subheading */
+      .skill-subheading {
+        font-family: monospace;
+        color: #ff6600;
+        font-size: 1.2rem;
+      }
+      
+      /* Style for skill list */
+      .skill-list {
+        margin-top: 5px; /* Adjust margin as needed */
+        margin-left: 5px;
+        font-family: monospace;
+        color: #666666;
+        font-size: 1.2rem;
+
+      }
+      
+      /* Style for list items within the skill list */
+      .skill-list li {
+        list-style-type: none; /* Remove bullet points */
+      }
+
+      
+
+/* Style for certification items */
+
+.certifications-bold-heading {
+    font-family: monospace;
+    margin-top: 200px;
+    font-size: 30px;
+    color: black  ;
+}
+
+  .certification-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: baseline; /* Align items to the baseline */
+}
+
+.certification-heading {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    align-items: baseline;
+     /* Align items to the baseline */
+}
+
+.certification-title {
+    margin-right: 10px;
+    font-family: monospace;
+    color: #ff6600;
+    font-size: 1.2rem; /* Adjust spacing between title and icon */
+}
+
+.certification-icon {
+    font-size: 16px; /* Adjust icon size as needed */
+    color: blue; /* Adjust icon color */
+    text-decoration: none; /* Remove underline from the icon */
+}
+
+.certification-icon:hover {
+    color: darkblue; /* Change icon color on hover */
+}
+
+.certification-date {
+    margin-left: auto; /* Push date to the end */
+    font-style: italic; /* Optional: italicize the date */
+    font-family: monospace;
+    color: #666666;
+    font-size: 1.2rem;
+}
