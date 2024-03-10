@@ -79,7 +79,7 @@ body {
 .personal-details {
     font-family: 'Ubuntu', sans-serif;
     color: #666666  ;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 
 
@@ -454,4 +454,75 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: #666666;
     font-size: 1.2rem;
+}
+
+
+
+/* Base styles */
+
+/* Your existing CSS */
+
+/* Mobile-friendly adjustments */
+@media only screen and (max-width: 600px) {
+    /* Adjust container widths */
+    .container {
+        width: 90%;
+    }
+
+    /* Increase padding or margins between sections */
+    .left-nav {
+        width: 100%; /* Take full width */
+        height: auto; /* Auto height */
+        padding: 20px; /* Add padding for better spacing */
+        position: static; /* Remove fixed positioning */
+    }
+
+    .profile-pic-img {
+        height: 100px; /* Decrease profile picture size */
+        width: 100px;
+    }
+
+    .nav-links ul {
+        font-size: 1rem; /* Decrease font size for smaller screens */
+    }
+
+    .nav-links li,
+    .nav-links li a {
+        line-height: 30px; /* Decrease line height for better spacing */
+    }
+
+    .right-content {
+        position: static; /* Remove absolute positioning */
+        margin: 20px 0; /* Add margin for better spacing */
+        width: 100%; /* Take full width */
+        left: auto; /* Remove left positioning */
+    }
+
+    .main-section {
+        height: auto; /* Adjust height as needed */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    /* Adjust font sizes for better readability */
+    .profile-name {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .profile-summary {
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .personal-details {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust font sizes for other sections as needed */
+
+    /* Adjust margins and paddings for better spacing */
+
+    /* Add more specific mobile-friendly adjustments as needed */
 }
