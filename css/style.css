@@ -497,6 +497,12 @@ body {
         width: 90%;
     }
 
+    .certifications-image {
+      position: static; /* Remove absolute positioning */
+      width: 100%; /* Make image full width */
+      margin-bottom: 20px; /* Add margin below image */
+  }
+
     /* Increase padding or margins between sections */
     .left-nav {
         width: 100%; /* Take full width */
