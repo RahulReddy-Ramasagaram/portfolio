@@ -23,6 +23,7 @@
     text-align: center;
 }
 
+
 .nav-links li, .nav-links li a {
     color: #f0f0f0;
     list-style: none;
@@ -36,6 +37,18 @@
 .nav-links li a:hover {
     color: #ff6600; /* Change color on hover */
     text-decoration: underline; /* Add underline on hover */
+}
+
+
+.profile-image {
+  position: absolute;
+  top: 20px; 
+  right: 20px; 
+  width: 100px; 
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .right-content {
@@ -74,6 +87,21 @@ body {
     letter-spacing: 0.05rem;
     margin-bottom: 50px;
     text-align: justify;
+}
+
+
+.certifications-image {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+
+.cert-img {
+  width: 250px; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add border radius */
+  border: 2px solid #ff6600; /* Optional: Add border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
 }
 
 .personal-details {
@@ -519,10 +547,4 @@ body {
     .personal-details {
         font-size: 1.2rem;
     }
-
-    /* Adjust font sizes for other sections as needed */
-
-    /* Adjust margins and paddings for better spacing */
-
-    /* Add more specific mobile-friendly adjustments as needed */
 }
